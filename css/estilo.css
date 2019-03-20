@@ -40,13 +40,14 @@ img {
     padding-right: 0px;
 }
 
+
 .background-header {
     background: url("../img/introducao1.jpg") no-repeat;
     background-size: cover;
 
 }
 
-.box-header{
+.box-header {
     max-width: 960px;
     margin: 0 auto;
     display: flex;
@@ -56,36 +57,78 @@ img {
 
 .header {
     max-width: 100%;
-    height: 800px;
+    height: 100%;
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-.header h3{
+.header h3 {
     text-align: center;
     font-size: 30px;
+    padding: 30px;
 }
 
-.header-menu ul{
+.header-menu ul {
     display: flex;
     flex-wrap: wrap;
     letter-spacing: 5px;
 }
 
-.header-menu li{
+.header-menu li {
     padding: 15px;
 }
 
-.header-menu a{
+.header-menu a {
     color: #ffffff;
 }
 
-.header-menu a:hover{
+.header-menu a:hover {
     color: gray;
     text-decoration: none;
 
 }
 
+/*introdução*/
+.introducao {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
 
+/*sobre*/
+.dobra-lixo {
+    display: flex;
+    color: black;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    flex-wrap: wrap;
+    
+}
 
+.titulo {
+    font-size: 3em;
+    margin-bottom: .5em;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #8FB18C;
+    width: 960px;
+}
+
+/*sobre-info*/
+.lixo-info {
+	flex: 2 1 300px;
+    margin: 0 auto;
+}
+
+.lixo-info p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+    
+	
+}

@@ -35,10 +35,12 @@ img {
 
 /*HEADER*/
 
+/*
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
 }
+*/
 
 
 .background-header {
@@ -104,23 +106,23 @@ img {
     color: black;
     max-width: 960px;
     margin: 0 auto;
-    padding: 60px 10px;
+    padding: 60px auto;
     flex-wrap: wrap;
-    
+
 }
 
 .titulo {
     font-size: 3em;
     margin-bottom: .5em;
     padding-top: 60px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     border-bottom: 2px solid #8FB18C;
     width: 960px;
 }
 
 /*sobre-info*/
 .lixo-info {
-	flex: 2 1 300px;
+    flex: 2 1 300px;
     margin: 0 auto;
 }
 
@@ -129,6 +131,66 @@ img {
     line-height: 1.4;
     margin-bottom: 1em;
     color: #7c7c7c;
-    
-	
+}
+
+.lixo-img {
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+
+.dobra-reciclagem {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.reciclagem-item {
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+
+.reciclagem-item h2 {
+    font-size: 2.25em;
+    color: #c7c7c7;
+    margin-bottom: 20px;
+}
+
+.reciclagem-item p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.container {
+    background-color: #8FB18C;
+}
+
+.reciclagem-item h2::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 30px;
+    margin-right: 10px;
+    background: #c7c7c7;
+
+}
+
+.footer {
+    display: flex;
+    background: #8FB18C;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer p {
+    font-size: 1em;
+    color: #c7c7c7;
+    padding: 10px;
 }

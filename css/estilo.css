@@ -179,6 +179,104 @@ img {
 
 }
 
+.dobra-galeria{
+    margin: 0px auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+/*	display: flex;*/
+/*    flex-wrap: wrap;*/
+    
+}
+
+.g1 {
+/*	flex-grow: 1;*/
+/*    flex-basis: auto;*/
+    display: flex;
+/*    justify-content: space-between;*/
+}
+
+.g1-config {
+	flex-grow: 1;
+    flex-basis: auto;
+    padding: 10px;
+}
+
+.g2 {
+	flex-grow: 2;
+    flex-basis: auto;
+    padding: 10px;
+}
+
+
+/*Javascript*/
+
+/*Plugin de Slide*/
+
+.rslides, .rslides_portfolio {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li, .rslides_portfolio li{
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child, .rslides_portfolio li:first-child{
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img, .rslides_portfolio img {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: 0;
+}
+
+.rslides_tabs {
+	text-align: center;
+	margin-top: 14px;
+}
+
+.rslides_tabs li{
+	display: inline;
+	margin: 0 5px;
+}
+
+.rslides_tabs li a{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: #1d1d1d;
+	color: #1d1d1d;
+	border-radius: 20px;
+	overflow: hidden;
+	text-indent: -200px;
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+	background: #8FB18C;
+	color: #8FB18C;
+}
+
+
+
+
 .footer {
     display: flex;
     background: #8FB18C;
@@ -240,16 +338,20 @@ img {
 
 .btn {
     padding: 7px 40px;
-    background: none;
     border: 3px solid #8FB18C;
     font-size: 14px;
     line-height: 20px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .1em;
+    background: white;
 }
 
 .btn:hover {
     background: #8FB18C;
     color: white;
+}
+
+.dobra-galeria {
+	background: black;
 }
